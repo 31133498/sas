@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanni Shazily | Professional Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background: url('hero-background.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .about-section {
+            padding: 60px 0;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Sanni Shazily</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to My Professional Portfolio</h1>
+            <p class="lead">I'm Sanni Shazily, a passionate tech enthusiast and web developer.</p>
+            <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section container">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Hello! I'm Sanni Shazily, a passionate and driven Gen Z tech enthusiast. I recently graduated from Aje Comprehensive Senior High School, where I served as the head boy and actively participated in various tech projects. My journey into the world of technology began at a young age, and it has been an exhilarating ride ever since.</p>
+                <h3>My Journey</h3>
+                <p>During my time in secondary school, I discovered my love for coding and web development. I took it upon myself to learn various programming languages and tools, often using the school's computers to hone my skills. This dedication led me to create <strong>Zlearn</strong>, an innovative educational platform designed to make learning more accessible and engaging for students. Zlearn has been my major project, and it embodies my vision of leveraging technology to solve real-world problems.</p>
+                <h3>Achievements</h3>
+                <ul>
+                    <li><strong>Head Boy</strong>: Developed leadership and organizational skills through active participation in school administration.</li>
+                    <li><strong>Tech Competitions</strong>: Participated in and won several tech competitions, showcasing my skills and passion for technology.</li>
+                    <li><strong>Project Development</strong>: Successfully created and managed Zlearn, an educational platform aimed at improving student learning experiences.</li>
+                </ul>
+                <h3>Skills</h3>
+                <ul>
+                    <li><strong>Web Development</strong>: Proficient in HTML, CSS, and JavaScript, with hands-on experience in creating and managing websites.</li>
+                    <li><strong>Programming</strong>: Strong foundation in various programming languages, including Python and JavaScript.</li>
+                    <li><strong>Project Management</strong>: Experience in leading projects from concept to execution, with a focus on teamwork and innovation.</li>
+                    <li><strong>Public Speaking</strong>: Effective communicator with experience in presenting ideas and projects to diverse audiences.</li>
+                </ul>
+                <h3>Vision</h3>
+                <p>My ultimate goal is to become a leading figure in the tech community, contributing to the development of innovative solutions that address pressing challenges. I am committed to continuous learning and growth, and I believe that with the right support and resources, I can make significant strides in my career.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="sanni-profile.jpg" class="img-fluid rounded-circle" alt="Sanni Shazily">
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container my-5">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <img src="zlearn.jpg" alt="Zlearn">
+                <h5 class="text-center">Zlearn</h5>
+                <p class="text-center">An innovative educational platform designed to make learning more accessible and engaging.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="tech-competition.jpg" alt="Tech Competition">
+                <h5 class="text-center">Tech Competitions</h5>
+                <p class="text-center">Participation and wins in various tech competitions showcasing my skills.</p>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <img src="web-development.jpg" alt="Web Development">
+                <h5 class="text-center">Web Development</h5>
+                <p class="text-center">Websites and projects developed showcasing my skills in web development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Sanni Shazily. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" class="text-white mx-2">Facebook</a>
+                <a href="#" class="text-white mx-2">Twitter</a>
+                <a href="#" class="text-white mx-2">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+
+
+<!--- **Hero Background**: `hero-background.jpg`
+- **Profile Image**: `sanni-profile.jpg`
+- **Portfolio Images**:
+  - `zlearn.jpg`: Image showcasing your Zlearn platform.
+  - `tech-competition.jpg`: Image related to tech competitions.
+  - `web-development.jpg`: Image related to web development projects.
+
+### How to Use
+
+1. **Replace Image Files**: Ensure that the images referenced in the code are available in your project directory, or update the `src` attributes to match the correct paths to your images.
+2. **Customize Content**: Adjust the text and descriptions to better reflect your personal experiences and projects.
+3. **Deploy**: Test your site locally and then deploy it to a web server or hosting service.
+
+This template is designed to highlight your professional achievements and skills effectively while providing a clean, modern layout.-->
